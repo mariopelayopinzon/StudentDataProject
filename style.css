@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#registrationForm, #searchForm {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#searchResult {
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#registrationForm, #assignClassGroup, #storeGrades, #calculateAverage {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Student Database</h1>
+    <div id="registrationForm">
+        <h2>Register Student</h2>
+        <form id="studentForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" required><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" required><br>
+
+            <label for="classAssignment">Class Assignment:</label>
+            <input type="text" id="classAssignment" required><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div id="searchForm">
+        <h2>Search Student</h2>
+        <input type="text" id="searchInput" placeholder="Search by Name or Lastname">
+        <button onclick="searchStudent()">Search</button>
+        <div id="searchResult"></div>
+    </div>
+
+    <div id="assignClassGroup">
+        <h2>Assign Class & Group</h2>
+        <input type="text" id="assignFirstName" placeholder="First Name">
+        <input type="text" id="assignLastName" placeholder="Last Name">
+        <input type="text" id="assignClass" placeholder="Class">
+        <input type="number" id="assignGroup" placeholder="Group">
+        <button onclick="assignClassAndGroup()">Assign</button>
+    </div>
+
+    <div id="storeGrades">
+        <h2>Store Grades</h2>
+        <input type="text" id="storeFirstName" placeholder="First Name">
+        <input type="text" id="storeLastName" placeholder="Last Name">
+        <input type="text" id="storeSubject" placeholder="Subject">
+        <input type="number" id="storeGrade" placeholder="Grade">
+        <button onclick="storeGrades()">Store</button>
+    </div>
+
+    <div id="calculateAverage">
+        <h2>Calculate Average Grade</h2>
+        <input type="text" id="averageFirstName" placeholder="First Name">
+        <input type="text" id="averageLastName" placeholder="Last Name">
+        <button onclick="calculateAverageGrade()">Calculate</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
